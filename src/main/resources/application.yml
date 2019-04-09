@@ -1,0 +1,10 @@
+server:
+  port: 8889
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000
+        loggerLevel: basic
